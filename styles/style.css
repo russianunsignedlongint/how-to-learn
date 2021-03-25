@@ -42,6 +42,7 @@
   padding-left: 64px;
   font-weight: bold;
   align-self: center;
+  z-index: 2;
   
 }
 
