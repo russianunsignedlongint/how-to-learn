@@ -46,6 +46,10 @@
   
 }
 
+.header_subtitle-link
+{
+  color:#2f80ed ;
+}
 
 .main-illustration
 {
@@ -176,6 +180,7 @@ p
 
 .digits-title_header{
   margin: auto;
+  font-size: 60px;
 
 }
 
@@ -239,22 +244,57 @@ p
 }
 
 
+
+
 .feynman
 {
-  margin-top: 100px;
-}
+  
+  margin-top:100px ;
+  height: 790px;
+  justify-content: center;
+  background-image: url("../images/feynman.png");
+  background-repeat:no-repeat ;
+  background-position: left bottom; 
+  background-color: #f2f2f2;
+  background-size: 867px 637px;
+  border: solid 2px black;
+  padding:100px;
 
-
-.feynman-header
-{
-  width:648px;
-  margin: auto;
 }
 
 .feynman-title
 {
-  width:648px;
-  line-height: 1.15;
+padding-top: 100px;
+text-align: center;
+ margin:auto;
   font-size: 120px;
-  font-weight: bold;
+  line-height: 1.15;
+  width:648px;
 }
+
+
+.feynman-subtitle
+{
+  text-align: center;
+  line-height: 51px;
+  font-size: 36px;
+  margin-top: 70px;
+}
+
+
+ .feynman-link
+ {
+
+  position: absolute;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight:normal;  
+  right: 48px;
+
+
+ }
+ 
+ .feynman-link_color
+ {
+  color:#2f80ed ;
+ }
