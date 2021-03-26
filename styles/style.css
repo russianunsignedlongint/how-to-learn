@@ -238,3 +238,23 @@ p
   padding-bottom: 0;
 }
 
+
+.feynman
+{
+  margin-top: 100px;
+}
+
+
+.feynman-header
+{
+  width:648px;
+  margin: auto;
+}
+
+.feynman-title
+{
+  width:648px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+}
