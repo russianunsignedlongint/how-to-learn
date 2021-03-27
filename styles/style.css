@@ -84,18 +84,11 @@
   top:64px;
 }
 
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
 
 .description
 {
   margin-top: 100px;
-  margin-bottom:100px;
+  margin-bottom:0;
 
  
 }
@@ -131,15 +124,14 @@ p
   width:80%;
   line-height: 34px;
   font-size: 24px;
-  
-
- 
+  margin-bottom: 100px;
 }
 
 .two-columns_paragraph
 {
   min-width:784px;
   width:80%;
+  
     
 }
 
@@ -151,40 +143,47 @@ p
 .two-columns_paragraph_span
 {
     
-
+  
   margin-top:30px;
   margin-bottom:30px;
+  
 }
 
 
 
 .digits
 {
+
   display: flex;
   flex-direction: column;
 }
 
 
-.digits-title
+.section-title
 {
-  margin: auto;
-  margin-top: 100px;
+
+  margin-left: auto;
+  margin-right: auto;
   line-height: 1.15;
- 
   font-weight: bold;
   width: 60%;
   display: flex;
   
   
+  
 }
 
-.digits-title_header{
-  margin: auto;
+.section-title__header{
+  
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 60px;
 
 }
 
-.digits-subtitle
+.section-subtitle
 {
   width:60%;
   margin:auto;
@@ -193,7 +192,7 @@ p
 
 
 
-.digits-subtitle_header{
+.section-subtitle__header{
   padding-top: 20px;
   margin: auto;
 
@@ -205,12 +204,12 @@ p
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-bottom: 100px;
+  margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
   justify-content: space-between;
   padding-bottom: 0;
-  
+
 }
 
 .table-cell
@@ -257,7 +256,6 @@ p
   background-position: left bottom; 
   background-color: #f2f2f2;
   background-size: 867px 637px;
-  border: solid 2px black;
   padding:100px;
 
 }
@@ -290,11 +288,47 @@ text-align: center;
   font-size: 36px;
   font-weight:normal;  
   right: 48px;
-
-
  }
  
  .feynman-link_color
  {
   color:#2f80ed ;
  }
+
+
+
+
+ /* и элемента с модификатором вида ключ-значение */
+
+
+ .section-title_theme_dark {
+  width: 60%;
+  color: white;
+  padding-top: 90px;
+
+    }
+
+ .section-subtitle_theme_dark {
+  width: 60%;
+  color: white;
+  padding-top: 20px;
+}
+
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+}
+
+
+.kaufman {
+  background-color: black;
+  padding-bottom: 90px;
+  background-image: url("../images/kaufman-triangle.svg") ;
+  background-repeat: no-repeat ;
+  overflow:hidden;
+  background-position: top 0px right -210px ;
+  background-size: 877px 877px;
+}
+
