@@ -324,7 +324,7 @@ text-align: center;
 
 
 .kaufman {
-  background-color: black;
+  background-color: #1f1f1f;
   padding-bottom: 90px;
   background-image: url("../images/kaufman-triangle.svg") ;
   background-repeat: no-repeat ;
@@ -338,10 +338,11 @@ text-align: center;
 {
  
   min-height: 350px ;
-  background-color: black;
+  background-color: #1f1f1f;
   border: solid 2px white;
   display: flex;
   justify-content: center;
+  padding-bottom: 40px;
 
 }
 
@@ -391,25 +392,32 @@ text-align: center;
 
 .footer__column-links
 {
-
   font-size: 18px;
-  padding-bottom: 16px;
+  line-height: 30px;
 }
+
+
+.footer__column-link
+
+{
+  line-height: 30px;
+  display:flex;
+  text-decoration: none;
+  color: white;
+
+  padding-right: 10px;
+}
+
+
 
 .footer__column_content-social
 {
   display: block;
 }
 
-.footer__column-link
-
-{
-  display:flex;
-
-}
 
 
-.facebook
+.images-padding_footer
 {
 padding-right: 10px;
 }
