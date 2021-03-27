@@ -354,17 +354,18 @@ text-align: center;
 }
 .footer__columns
 {
-
   width: 90%;
-  border: solid 2px white;
+  border: solid 2px rgb(73, 25, 136);
   margin-top: 150px;
   color:white;
   margin-left: 30px;
+  display:flex;
+  justify-content: space-between;
 }
 
 .footer__column
 {
- 
+
   border: solid 2px red;
   
   
@@ -373,7 +374,42 @@ text-align: center;
 .footer__author
 {
   border: solid 2px yellow;
-  padding-bottom: 0;
+  margin-bottom: 18px;
   line-height: 25px;
   font-size: 18px;
+}
+
+
+.footer__column-heading
+{
+  line-height: 30px;
+  font-size: 18px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+
+.footer__column-links
+{
+
+  font-size: 18px;
+  padding-bottom: 16px;
+}
+
+.footer__column_content-social
+{
+  display: block;
+}
+
+.footer__column-link
+
+{
+  display:flex;
+
+}
+
+
+.facebook
+{
+padding-right: 10px;
 }
