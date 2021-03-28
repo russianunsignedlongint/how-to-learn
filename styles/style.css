@@ -305,6 +305,7 @@ p
 
 .footer
 {
+  border: 2px solid yellow;
   min-height: 350px;
   background-color: #1f1f1f;
   display: flex;
@@ -322,6 +323,7 @@ p
 }
 .footer__columns
 {
+  border: 2px solid yellow;
   width: 90%;
   margin-top: 60px;
   color:white;
@@ -330,9 +332,6 @@ p
   justify-content: space-between;
 }
 
-.footer__column
-{  
-}
 
 .footer__author
 {
