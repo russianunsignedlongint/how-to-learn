@@ -55,7 +55,7 @@
 
 .header_subtitle-link
 {
-  color:#2f80ed ;
+  color:#2f80ed;
 }
 
 .main-illustration
@@ -108,7 +108,8 @@
   display:flex;
 
   justify-content: space-between;
-  width:80%;  margin:auto;
+  width:80%;
+  margin:auto;
 
 
 }
