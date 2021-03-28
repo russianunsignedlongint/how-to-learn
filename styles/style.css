@@ -137,6 +137,7 @@ p
 {
   display: flex;
   flex-direction: column;
+  margin-bottom: 100px;
 }
 
 
@@ -219,6 +220,7 @@ p
 
 .feynman
 {  
+ 
   padding-bottom: 100px;
   min-height: 790px;
   justify-content: center;
