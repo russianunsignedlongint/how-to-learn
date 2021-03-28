@@ -219,7 +219,7 @@ p
   margin-right: auto;
   justify-content: space-between;
 
-  padding-bottom: 0;
+
   margin-bottom: 0;
   
 }
@@ -259,9 +259,9 @@ p
 
 .feynman
 {  
-  margin-top:100px ;
-  padding-top: 100px;
-  height: 790px;
+  
+  padding-bottom: 100px;
+  min-height: 790px;
   justify-content: center;
   background-image: url("../images/feynman.png");
   background-repeat:no-repeat ;
@@ -269,13 +269,12 @@ p
   background-color: #f2f2f2;
   background-size: 867px 637px; 
   position:relative;
-
   
 }
 
 .feynman-title
 {
- 
+  padding-top: 100px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -354,11 +353,11 @@ p
  
   min-height: 350px ;
   background-color: #1f1f1f;
-  border: solid 2px white;
+
   display: flex;
   justify-content: center;
   padding-bottom: 40px;
-
+  flex-basis:711px;
 }
 
 .logo_place_footer
@@ -377,6 +376,7 @@ p
   margin-left: 30px;
   display:flex;
   justify-content: space-between;
+  
 }
 
 .footer__column
