@@ -41,8 +41,9 @@
   z-index: 2;
 }
 
-.header__subtitle-link {
+.header__link {
   color:#2f80ed;
+  text-decoration: none;
 }
 
 .header__main-illustration {
@@ -53,7 +54,7 @@
   position:absolute;
 }
 
-.header_subtitle {
+.header__subtitle {
  line-height: 25px;
  font-size: 18px;
  font-weight: normal;
@@ -110,15 +111,17 @@ div p {
 
 .two-columns__paragraph {
   min-width:784px;  
+ margin-top: 30px ;
+  margin-bottom:30px;
 }
 
 .span-bolded{
   font-weight: bold;
+  
 }
 
-.two-columns__paragraph-span {
-  margin-top:30px;
-  margin-bottom:30px;
+.two-columns__span-accent {
+  font-weight: bold;
 }
 
 
