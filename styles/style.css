@@ -324,6 +324,7 @@
 
 
 .footer__column-heading {
+  text-align: center;
   margin: 0;
   line-height: 30px;
   font-size: 18px;
