@@ -104,21 +104,18 @@
   width:80%;
   line-height: 34px;
   font-size: 24px;
-  
 }
 
 .two-columns__paragraph {
   min-width:784px;  
  margin-top: 0px ;
   margin-bottom:30px;
-  
 }
 
 
 
 .span-bolded{
   font-weight: bold;
-  
 }
 
 .two-columns__span-accent {
@@ -158,8 +155,7 @@
 
 .section-subtitle__header { 
   padding-top: 20px; 
-  margin: auto; 
-
+  margin: auto;
 } 
  
 .table {
@@ -171,7 +167,6 @@
   margin-right: auto;
   justify-content: space-between;
   margin-bottom: 0;
-
 }
 
 .table__cell {
@@ -193,7 +188,6 @@
   font-size: 18px;
   margin-top: 20px;
   margin-bottom: 0;
- 
 }
 
 
@@ -322,7 +316,7 @@
 
 
 .footer__author {
- margin-top: 0;
+  margin-top: 0;
   margin-bottom: 18px;
   line-height: 25px;
   font-size: 18px;
@@ -330,7 +324,6 @@
 
 
 .footer__column-heading {
-  
   margin: 0;
   line-height: 30px;
   font-size: 18px;
@@ -363,6 +356,7 @@
 .footer__column_content_social {
   display: block;
 }
+
 .footer__column_content_copyright{
   display:flex;
   justify-content: space-between;
