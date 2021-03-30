@@ -335,6 +335,9 @@ div p {
 
 
 .footer__column-links {
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
   font-size: 18px;
   line-height: 30px;
 }
@@ -351,7 +354,7 @@ div p {
 .footer__column_content-social {
   display: block;
 }
-.footer__column_content-copyright{
+.footer__column_content_copyright{
   display:flex;
   justify-content: space-between;
 flex-basis:711px;
