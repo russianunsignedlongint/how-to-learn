@@ -154,7 +154,6 @@
   font-weight: normal;
   line-height: 34px;
   font-size: 24px;
-
 }
 
 .section-subtitle__header { 
@@ -260,14 +259,7 @@
   }
 
  .section-subtitle_theme_dark {
-  text-align: center;
-  margin: auto;
-  font-weight: normal;
-  width: 60%;
   color: white;
-  padding-top: 20px;
-  line-height: 34px;
-  font-size: 24px;
 }
 
 .table__cell_theme_dark {
@@ -308,7 +300,6 @@
   display: flex;
   justify-content: center;
   padding-bottom: 40px;
-
 }
 
 .logo_place_footer {
