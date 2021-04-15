@@ -8,9 +8,5 @@
     position: absolute;
     right: 0;
     top:64px;
-    animation-name: rotation;
-    animation-timing-function: linear;
-	  animation-duration: 20s;
-    animation-iteration-count:infinite;
   }
   
