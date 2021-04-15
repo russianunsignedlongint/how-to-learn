@@ -1,6 +1,12 @@
 .video__iframe{
     width:515px;
     height:316px;
+   transform: translate(0,40px);    
+}
+
+.video__iframe:last-child{
+    width:515px;
+    height:316px;
     margin-left: 20px;
    transform: translate(0,40px);    
 }

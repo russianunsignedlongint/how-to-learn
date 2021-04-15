@@ -3,3 +3,11 @@
    margin-top: 0px;
     margin-bottom:30px;
   }
+
+
+  .two-columns__paragraph:last-child {
+    min-width:784px;
+   margin-top: 0px;
+    margin-bottom:0;
+  }
+
