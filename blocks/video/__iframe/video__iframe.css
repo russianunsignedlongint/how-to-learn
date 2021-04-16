@@ -1,6 +1,7 @@
 .video__iframe{
     width:515px;
     height:316px;
+    border: 0;
    transform: translate(0,40px);    
 }
 
@@ -8,5 +9,6 @@
     width:515px;
     height:316px;
     margin-left: 20px;
+    border: 0;
    transform: translate(0,40px);    
 }
